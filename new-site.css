@@ -1,0 +1,52 @@
+
+@font-face {
+    font-family: "SuisseIntl-Medium";
+    src: url('SuisseIntl-Medium.otf');
+}
+
+p {
+    display: block;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+p::selection {
+        color: white;
+      }
+
+a:hover {
+  	color: #d9e4c7;
+}
+
+body {
+	background-color: #fafaf9;
+}
+
+.paragraphe{
+  	width: 20em;
+  	font-size: 170%;
+  	font-family: 'SuisseIntl-Medium', sans-serif;
+  	margin-left: 15px;
+  	display:inline-block;
+  	top: 30px;
+}
+
+.services{
+  	width: 20em;
+  	font-size: 100%;
+  	font-family: 'SuisseIntl-Medium', sans-serif;
+  	margin-left: 15px;
+  	display:inline-block;
+  	position: absolute;
+  	right: 10px;
+  	top: 30px;
+}
+
+.contact{
+	position: absolute;
+	font-family: 'SuisseIntl-Medium', sans-serif;
+  	left: 10px;
+  	bottom: 30px;
+}
